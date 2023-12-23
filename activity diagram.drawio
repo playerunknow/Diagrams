@@ -1,0 +1,341 @@
+<mxfile host="app.diagrams.net" modified="2023-12-23T20:28:09.399Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="W7oO092V20DlaT93kOHb" version="22.1.11" type="device">
+  <diagram name="Page-1" id="rWZWn9GKqUeiG83TH5Fb">
+    <mxGraphModel dx="2893" dy="1825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-2" value="Декан" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="70" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-3" value="Викладач&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="-110" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-7" value="Деканат" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="440" y="70" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-10" value="Кафедра" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="570" y="70" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-11" value="База даних" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="700" y="70" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-12" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TQL-xBhsAGPzBsgKmhUY-19" target="TQL-xBhsAGPzBsgKmhUY-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="495" y="360" as="sourcePoint" />
+            <mxPoint x="540" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-14" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="360" as="sourcePoint" />
+            <mxPoint x="759.9999999999998" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-17" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="TQL-xBhsAGPzBsgKmhUY-84" target="TQL-xBhsAGPzBsgKmhUY-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="285" y="360" as="sourcePoint" />
+            <mxPoint x="280" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-18" value="запит на створення&lt;br&gt;&amp;nbsp;навчального плана&lt;br&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="290" y="190" as="sourcePoint" />
+            <mxPoint x="490" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-20" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="TQL-xBhsAGPzBsgKmhUY-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="495" y="360" as="sourcePoint" />
+            <mxPoint x="495" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-22" value="надіслати навчальний&lt;br&gt;&amp;nbsp;план на перевірку" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="TQL-xBhsAGPzBsgKmhUY-19">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="490" y="220" as="sourcePoint" />
+            <mxPoint x="630" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-23" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="TQL-xBhsAGPzBsgKmhUY-19">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="490" y="220" as="sourcePoint" />
+            <mxPoint x="630" y="220" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-19" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="490" y="190" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-26" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="640" y="300" as="sourcePoint" />
+            <mxPoint x="760" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-27" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TQL-xBhsAGPzBsgKmhUY-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="634.71" y="360" as="sourcePoint" />
+            <mxPoint x="634.71" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-28" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="TQL-xBhsAGPzBsgKmhUY-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="635" y="360" as="sourcePoint" />
+            <mxPoint x="634.71" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-24" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="630" y="220" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-29" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="250" as="sourcePoint" />
+            <mxPoint x="500" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-31" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;записатинавчальний&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;план у базу&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;даних&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="260" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-39" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="TQL-xBhsAGPzBsgKmhUY-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="635" y="280" as="sourcePoint" />
+            <mxPoint x="635" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-38" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="630" y="270" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-40" value="Студент" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="10" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-41" value="Працівник &lt;br&gt;факультету" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="540" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-42" value="Факультет" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="420" y="530" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-43" value="База даних" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="610" y="530" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-46" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="TQL-xBhsAGPzBsgKmhUY-44" target="TQL-xBhsAGPzBsgKmhUY-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="305" y="880" as="sourcePoint" />
+            <mxPoint x="430" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-47" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="300" y="670" as="sourcePoint" />
+            <mxPoint x="470" y="670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-48" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TQL-xBhsAGPzBsgKmhUY-50" target="TQL-xBhsAGPzBsgKmhUY-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="475" y="880" as="sourcePoint" />
+            <mxPoint x="510" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-49" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="665" y="1160" as="sourcePoint" />
+            <mxPoint x="664.66" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-51" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TQL-xBhsAGPzBsgKmhUY-57" target="TQL-xBhsAGPzBsgKmhUY-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="475" y="880" as="sourcePoint" />
+            <mxPoint x="475" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-50" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="470" y="670" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-52" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Запит на додавання &lt;br&gt;студентів&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="635" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-53" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="480" y="750" as="sourcePoint" />
+            <mxPoint x="660" y="750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-54" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="TQL-xBhsAGPzBsgKmhUY-61" target="TQL-xBhsAGPzBsgKmhUY-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="305" y="880" as="sourcePoint" />
+            <mxPoint x="305" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-44" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="300" y="640" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-55" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="TQL-xBhsAGPzBsgKmhUY-50">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="400" y="710" as="sourcePoint" />
+            <mxPoint x="310" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-56" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;статус код запиту&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="325" y="850" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-58" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TQL-xBhsAGPzBsgKmhUY-64" target="TQL-xBhsAGPzBsgKmhUY-57">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="475" y="1160" as="sourcePoint" />
+            <mxPoint x="475" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-57" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="470" y="720" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-59" value="запис студента &lt;br&gt;до бази даних" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="710" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-62" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="TQL-xBhsAGPzBsgKmhUY-61">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="305" y="1160.6896551724137" as="sourcePoint" />
+            <mxPoint x="305" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-61" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="300" y="820" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-63" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="300" y="850" as="sourcePoint" />
+            <mxPoint x="470" y="850" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-65" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TQL-xBhsAGPzBsgKmhUY-67" target="TQL-xBhsAGPzBsgKmhUY-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="475" y="1160" as="sourcePoint" />
+            <mxPoint x="475" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-64" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="470" y="850" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-66" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="490" y="219.42999999999995" as="sourcePoint" />
+            <mxPoint x="290" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-68" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="TQL-xBhsAGPzBsgKmhUY-67">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="475" y="1160" as="sourcePoint" />
+            <mxPoint x="475" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-67" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="470" y="900" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-69" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="475" y="930" as="sourcePoint" />
+            <mxPoint x="660" y="930" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="565" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-70" value="запит на &lt;br&gt;додавання вчителя" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="815" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-71" value="запис вчителя&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;до бази даних" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="893" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-74" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;статус код запиту&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="325" y="1035" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-75" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="300" y="1005" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-76" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="300" y="1035" as="sourcePoint" />
+            <mxPoint x="470" y="1035" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="1035" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-77" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TQL-xBhsAGPzBsgKmhUY-80" target="TQL-xBhsAGPzBsgKmhUY-78">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="475" y="1345" as="sourcePoint" />
+            <mxPoint x="475" y="935" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-78" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="470" y="1035" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-79" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="470" y="1065" as="sourcePoint" />
+            <mxPoint x="310" y="1065" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-80" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="470" y="1085" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-81" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="475" y="1115" as="sourcePoint" />
+            <mxPoint x="660" y="1115" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="565" y="1115" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-82" value="запит на &lt;br&gt;додавання декану" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1000" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-83" value="запис декану&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;до бази даних" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1078" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-85" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="TQL-xBhsAGPzBsgKmhUY-84">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="285" y="360" as="sourcePoint" />
+            <mxPoint x="285" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-84" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="280" y="160" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-87" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="470" y="880" as="sourcePoint" />
+            <mxPoint x="310" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-88" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;статус код запиту&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="190" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-89" value="статус код запиту" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="675" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-90" value="статус код запиту" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="220" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TQL-xBhsAGPzBsgKmhUY-91" value="Університет&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="110" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
