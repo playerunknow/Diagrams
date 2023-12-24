@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-22T18:40:36.179Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="SGadNIBse_6IwCFkSQB0" version="22.1.11" type="device">
+<mxfile host="app.diagrams.net" modified="2023-12-24T18:50:36.912Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="lYKfEUG9XHy_pPFW3mFm" version="22.1.11" type="device">
   <diagram name="Page-1" id="uLWutHsh9H5jnmKMyYdZ">
-    <mxGraphModel dx="4820" dy="2583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1919" dy="1296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,7 +49,7 @@
         <mxCell id="XazD7XK5eJe6dAyfY3j4-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="XazD7XK5eJe6dAyfY3j4-25" vertex="1">
           <mxGeometry y="80" width="360" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="XazD7XK5eJe6dAyfY3j4-28" value="checkCourseWork() : Int&lt;br&gt;teachClass(idClass : String) : void&lt;br&gt;teachPractic() : void&lt;br&gt;teachConsultation() : void&lt;br&gt;teachSeminar() : void&lt;br&gt;teachLection() : void&lt;br&gt;enterGradeBook(gradeBook: Dictionary) : Dictionary&lt;br&gt;enterAttendanceBook(attendanceBook : Dictionary) : Dictionary&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="XazD7XK5eJe6dAyfY3j4-25" vertex="1">
+        <mxCell id="XazD7XK5eJe6dAyfY3j4-28" value="checkCourseWork() : Int&lt;br&gt;teachClass(idClass : String) : void&lt;br&gt;teachPractic() : void&lt;br&gt;teachConsultation() : void&lt;br&gt;teachSeminar() : void&lt;br&gt;teachLection() : void&lt;br&gt;enterGradeBook(gradeBook: Dictionary) : void&lt;br&gt;enterAttendanceBook(attendanceBook : Dictionary) : void&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="XazD7XK5eJe6dAyfY3j4-25" vertex="1">
           <mxGeometry y="88" width="360" height="132" as="geometry" />
         </mxCell>
         <mxCell id="ZtgNmYynmjVqdtdNXjMd-1" value="Assistant&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
